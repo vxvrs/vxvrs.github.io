@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html>
     <head>
         <title>Website by Viggo Overes</title>
@@ -5,8 +7,6 @@
     </head>
 
     <body>
-        <h1 class="title">Website by Viggo Overes</h1>
-
-        <a class="link" href="http://www.apple.com">Click on this</a>
+        <?php include ('head.php'); ?>
     </body>
 </html>

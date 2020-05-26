@@ -1,5 +1,28 @@
 .title {
-    font-family: Helvetica; 
-    color: whitesmoke; 
-    background-color: gray;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: black;
+    width: 30%;
+    text-align: center;
+    margin-top: 5%;
+    padding: 20px;
+    border-style: solid;
+    border-width: 4px;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.link {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: black;
+    font-size: large;
+    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: crimson;
 }

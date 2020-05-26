@@ -12,6 +12,7 @@
 
 .body {
     width: 60%;
+    margin-top: 5%;
     margin-left: 50%;
     transform: translate(-50%, 0%);
 }
@@ -28,6 +29,7 @@
 .link {
     font-family: Helvetica;
     font-weight: bold;
+    margin: 0% 1%;
     color: black;
     font-size: large;
     text-align: center;
@@ -38,4 +40,9 @@
     color: crimson;
     text-decoration: underline;
     transition: 0.45s;
+}
+
+#robot {
+    height: auto;
+    max-width: 100%;
 }

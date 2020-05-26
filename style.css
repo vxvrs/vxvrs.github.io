@@ -42,6 +42,10 @@
     transition: 0.45s;
 }
 
+.coinmarketcap-currency-widget {
+    width: 40%;
+}
+
 #robot {
     height: auto;
     max-width: 100%;

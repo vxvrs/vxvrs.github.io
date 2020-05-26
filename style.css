@@ -1,15 +1,28 @@
-.title {
+.head {
     font-family: Helvetica;
     font-weight: bold;
     color: black;
-    width: 30%;
+    width: 60%;
     text-align: center;
     margin-top: 5%;
-    padding: 20px;
-    border-style: solid;
-    border-width: 4px;
+    padding: 1%;
     margin-left: 50%;
     transform: translate(-50%, 0%);
+}
+
+.body {
+    width: 60%;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.title {
+    border-style: solid;
+    border-width: 4px;
+    padding: 2%;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    width: 60%;
 }
 
 .link {
@@ -18,11 +31,11 @@
     color: black;
     font-size: large;
     text-align: center;
-    margin-left: 50%;
-    transform: translate(-50%, 0%);
     text-decoration: none;
 }
 
 .link:hover {
     color: crimson;
+    text-decoration: underline;
+    transition: 0.45s;
 }

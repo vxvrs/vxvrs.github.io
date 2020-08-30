@@ -15,6 +15,9 @@
     margin-top: 5%;
     margin-left: 50%;
     transform: translate(-50%, 0%);
+
+    font-family: Helvetica;
+    color: black;
 }
 
 .title {
